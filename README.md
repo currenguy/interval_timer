@@ -1,5 +1,5 @@
 # Interval Timer
-This is an interval timer with 4 different workouts:
+This is an interval timer with 4 total workouts:
   - Beginner Workout A
   - Advanced Workout A
   - Beginner Workout B
