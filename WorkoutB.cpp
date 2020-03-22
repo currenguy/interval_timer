@@ -1,50 +1,50 @@
-#include "WorkoutA.h"
+#include "WorkoutB.h"
 
-WorkoutA::WorkoutA()
+WorkoutB::WorkoutB()
 {
   //Setting Beginner Exercise List
-  beginnerExercises[0] = "Alternating Single Leg Box Squats (High Box)";
-  beginnerExercises[1] = "1 1/2 Bottomed Out Squats";
-  beginnerExercises[2] = "Jump Squats";
-  beginnerExercises[3] = "Power Pushaways";
-  beginnerExercises[4] = "Knee Rotational Pushups";
-  beginnerExercises[5] = "Knee Cobra Pushups";
-  beginnerExercises[6] = "Alternating Heel Touch Squats (Kickstand)";
-  beginnerExercises[7] = "Alternating Sprinter Lunges";
-  beginnerExercises[8] = "Pylo Sprinter Lunges";
-  beginnerExercises[9] = "Seated Pullups";
-  beginnerExercises[10] = "Bodyweight Sliding Pulldowns";
-  beginnerExercises[11] = "Inverted Chin Curls";
-  beginnerExercises[12] = "Reverse Corkscrews";
-  beginnerExercises[13] = "Black Widow Knee Slides";
-  beginnerExercises[14] = "Levitation Crunches";
-  beginnerExercises[15] = "Angels and Devils";
+  beginnerExercises[0] = "Slick Floor Bridge Curls";
+  beginnerExercises[1] = "Long Leg Marches";
+  beginnerExercises[2] = "High Hip Bucks";
+  beginnerExercises[3] = "Knee Decline to Flat Pushups";
+  beginnerExercises[4] = "Knee Bodyweight Side Laterals";
+  beginnerExercises[5] = "Bodyweight Triceps Extensions";
+  beginnerExercises[6] = "Alternating Crossover Step Ups";
+  beginnerExercises[7] = "Alternating Reverse Lunges";
+  beginnerExercises[8] = "Split Squat Jumps";
+  beginnerExercises[9] = "Seated Chinups";
+  beginnerExercises[10] = "Inverted Rows";
+  beginnerExercises[11] = "Back Widows";
+  beginnerExercises[12] = "Ab Halos";
+  beginnerExercises[13] = "V-Up Tucks";
+  beginnerExercises[14] = "Sit-Up Elbow Thrusts";
+  beginnerExercises[15] = "Reverse Hypers";
 
   //Setting Advanced Exercise List
-  advancedExercises[0] = "Alternating Single Leg Box Squats (Low Box)";
-  advancedExercises[1] = "1 1/2 Bottomed Out Squats";
-  advancedExercises[2] = "Jump Squats";
-  advancedExercises[3] = "Handstand Pushups";
-  advancedExercises[4] = "Rotational Pushups";
-  advancedExercises[5] = "Cobra Pushups";
-  advancedExercises[6] = "Alternating Heel Touch Squats";
-  advancedExercises[7] = "Alternating Sprinter Lunges";
-  advancedExercises[8] = "Pylo Sprinter Lunges";
-  advancedExercises[9] = "Pullups";
-  advancedExercises[10] = "Human Pullovers";
-  advancedExercises[11] = "Inverted Chin Curls";
-  advancedExercises[12] = "Reverse Corkscrews";
-  advancedExercises[13] = "Black Widow Knee Slides";
-  advancedExercises[14] = "Levitation Crunches";
-  advancedExercises[15] = "Angels and Devils";
+  advancedExercises[0] = "Slick Floor Bridge Curls";
+  advancedExercises[1] = "Long Leg Marches";
+  advancedExercises[2] = "High Hip Bucks";
+  advancedExercises[3] = "Variable Wall Pushups";
+  advancedExercises[4] = "Alternating Bodyweight Side Laterals";
+  advancedExercises[5] = "Bodyweight Triceps Extensions";
+  advancedExercises[6] = "Alternating Crossover Step Ups";
+  advancedExercises[7] = "Alternating Reverse Lunges";
+  advancedExercises[8] = "Split Squat Jumps";
+  advancedExercises[9] = "Chinups";
+  advancedExercises[10] = "Inverted Rows";
+  advancedExercises[11] = "Back Widows";
+  advancedExercises[12] = "Ab Halos";
+  advancedExercises[13] = "V-Up Tucks";
+  advancedExercises[14] = "Sit-Up Elbow Thrusts";
+  advancedExercises[15] = "Reverse Hypers";
 }
 
-WorkoutA::~WorkoutA()
+WorkoutB::~WorkoutB()
 {
 
 }
 
-string WorkoutA::getNumber(int n)
+string WorkoutB::getNumber(int n)
 {
   string s = "";
   switch(n)
@@ -597,7 +597,7 @@ string WorkoutA::getNumber(int n)
   return s;
 }
 
-void WorkoutA::startBeginnerWorkout()
+void WorkoutB::startBeginnerWorkout()
 {
   cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSTARTING WORKOUT\n\n\n\n\n" << endl;
   std::this_thread::sleep_for(2s);
@@ -628,7 +628,7 @@ void WorkoutA::startBeginnerWorkout()
   }
 }
 
-void WorkoutA::startAdvancedWorkout()
+void WorkoutB::startAdvancedWorkout()
 {
   cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSTARTING WORKOUT\n\n\n\n\n" << endl;
   std::this_thread::sleep_for(2s);

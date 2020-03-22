@@ -1,5 +1,5 @@
-#ifndef WORKOUTA_H
-#define WORKOUTA_H
+#ifndef WORKOUTB_H
+#define WORKOUTB_H
 
 #include <iostream>
 #include <chrono>
@@ -7,11 +7,11 @@
 #include <cctype>
 using namespace std;
 
-class WorkoutA
+class WorkoutB
 {
   public:
-    WorkoutA();
-    ~WorkoutA();
+    WorkoutB();
+    ~WorkoutB();
     string getNumber(int n);
     void startBeginnerWorkout();
     void startAdvancedWorkout();
